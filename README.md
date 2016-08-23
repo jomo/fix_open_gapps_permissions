@@ -26,4 +26,4 @@ adb shell 'bash /sdcard/fix_open_gapps_permissions.sh'
 adb shell 'rm /sdcard/fix_open_gapps_permissions.sh'
 ```
 
-If you don't have access to ADB, you can download the file onto your device or move it to sdcard. To execute it, enable *Developer Options → Local terminal* and use the `Terminal` app.
+If you don't have access to ADB, you can download the file onto your device or place it on the sdcard. To execute it, enable *Developer Options → Local terminal* and use the `Terminal` app.
