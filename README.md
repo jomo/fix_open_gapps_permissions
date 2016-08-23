@@ -18,10 +18,12 @@ I converted it to a bash script that utilizes `pm grant` to achieve the same res
 
 ## Usage
 
-Place the script on your device and execute it, you may delete the file afterwards.
+Place the script on your device and execute it *after CyanogenMod booted*, you may delete the file afterwards.
 
 ```shell
 adb push fix_open_gapps_permissions.sh /sdcard/
 adb shell 'bash /sdcard/fix_open_gapps_permissions.sh'
 adb shell 'rm /sdcard/fix_open_gapps_permissions.sh'
 ```
+
+If you don't have access to ADB, you can download the file onto your device or move it to sdcard. To execute it, enable *Developer Options → Local terminal* and use the `Terminal` app.
